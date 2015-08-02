@@ -11,13 +11,9 @@ dnl  --------------
 dnl
 dnl  $1 - First argument is the text that will be displayed
 dnl  $2 - Second argument is the background color
-
-define(`flair_quote',`patsubst(`$1',` ',`-')')
-
-define(`flair_plus_sidebar',
-`
-
-.side table td a[href$="$1"] {
+define(`flair_quote',`patsubst(`$1',`[ /]',`-')')
+define(`flair_plus_sidebar',`
+.side table td a[href$="flair_quote($1)"] {
     transition: all 1s ease 0s;
     background-color:`$2';
     color:#fff;
@@ -25,18 +21,18 @@ define(`flair_plus_sidebar',
     border-radius:4px
 }
 
-.side table td a[href$= "patsubst($1,` ',`-')" ]:hover {
+.side table td a[href$="flair_quote($1)" ]:hover {
     background-color:$2;
     color:#fff;
     border:0 solid;
     border-radius:4px
 }
 
-.linkflair-$1 .title .linkflairlabel {
+.linkflair-flair_quote($1) .title .linkflairlabel {
     display:none
 }
 
-.linkflair-Newbie-Advice .linkflairlabel {
+.linkflair-flair_quote($1) .linkflairlabel {
     background-color:$2;
     color:#fff
 }
@@ -49,6 +45,4 @@ define(`flair_plus_sidebar',
     background-color:$2;
     color:#FFF;
     content:"$1"
-}
-
-')
+}')
