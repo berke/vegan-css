@@ -2,7 +2,7 @@
 
 all: subreddit.css
 
-subreddit.css: subreddit.m4
+subreddit.css: $(wildcard *.m4)
 	m4 $^ >$@
 
 clean:
