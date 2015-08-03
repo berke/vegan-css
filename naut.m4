@@ -4034,7 +4034,7 @@ form.toggle.sr_style_toggle label {
     background:linear-gradient(top,`#748B28',`#69A53F')
 }
 
-.side .md a[href*="https://www.reddit.com/r/vegan/wiki/beginnersguide"] {
+.side .md a[href$="/r/vegan/wiki/beginnersguide"] {
 transition: all 0.7s ease 0s;
 background-color: `#F7B020';
 border: 0px solid `#D4D4D4';
@@ -4048,11 +4048,11 @@ margin: 0!important;
 padding: 14px 6px!important;
 font-size: 12px;
 }
-.side .md a[href*="https://www.reddit.com/r/vegan/wiki/beginnersguide"]:hover { background-color:`#FA5708'}
-.res-nightmode .side .md a[href*="https://www.reddit.com/r/vegan/wiki/beginnersguide"] {background-color:`#AC1E44'}
-.res-nightmode .side .md a[href*="https://www.reddit.com/r/vegan/wiki/beginnersguide"]:hover {background-color:`#6b132a'}
+.side .md a[href$="/r/vegan/wiki/beginnersguide"]:hover { background-color:`#FA5708'}
+.res-nightmode .side .md a[href$="/r/vegan/wiki/beginnersguide"] {background-color:`#AC1E44'}
+.res-nightmode .side .md a[href$="/r/vegan/wiki/beginnersguide"]:hover {background-color:`#6b132a'}
 
-.side .md a[href*="http://www.reddit.com/r/vegan/wiki/eggs"] {
+.side .md a[href$="/r/vegan/wiki/eggs"] {
 transition: all 0.7s ease 0s;
 background-color: `#F7B020';
 border: 0px solid `#D4D4D4';
@@ -4065,11 +4065,11 @@ margin: 0!important;
 padding: 6px!important;
 font-size: 12px;
 }
-.side .md a[href*="http://www.reddit.com/r/vegan/wiki/eggs"]:hover { background-color:`#FA5708'}
-.res-nightmode .side .md a[href*="http://www.reddit.com/r/vegan/wiki/eggs"] {background-color:`#AC1E44'}
-.res-nightmode .side .md a[href*="http://www.reddit.com/r/vegan/wiki/eggs"]:hover {background-color:`#6b132a'}
+.side .md a[href$="/r/vegan/wiki/eggs"]:hover { background-color:`#FA5708'}
+.res-nightmode .side .md a[href*="/r/vegan/wiki/eggs"] {background-color:`#AC1E44'}
+.res-nightmode .side .md a[href*="/r/vegan/wiki/eggs"]:hover {background-color:`#6b132a'}
 
-.side .md a[href*="https://www.reddit.com/r/vegan/wiki/dieteticorgs"] {
+.side .md a[href*="/r/vegan/wiki/dieteticorgs"] {
 transition: all 0.7s ease 0s;
 background-color: `#F7B020';
 border: 0px solid `#D4D4D4';
@@ -4082,9 +4082,9 @@ margin: 0!important;
 padding: 6px!important;
 font-size: 12px;
 }
-.side .md a[href*="https://www.reddit.com/r/vegan/wiki/dieteticorgs"]:hover { background-color:`#FA5708'}
-.res-nightmode .side .md a[href*="https://www.reddit.com/r/vegan/wiki/dieteticorgs"] {background-color:`#AC1E44'}
-.res-nightmode .side .md a[href*="https://www.reddit.com/r/vegan/wiki/dieteticorgs"]:hover {background-color:`#6b132a'}
+.side .md a[href*="/r/vegan/wiki/dieteticorgs"]:hover { background-color:`#FA5708'}
+.res-nightmode .side .md a[href*="/r/vegan/wiki/dieteticorgs"] {background-color:`#AC1E44'}
+.res-nightmode .side .md a[href*="/r/vegan/wiki/dieteticorgs"]:hover {background-color:`#6b132a'}
 
 .side .md a[href*="http://vegetus.org/honey/honey.htm"] {
 transition: all 0.7s ease 0s;
@@ -4103,7 +4103,7 @@ font-size: 12px;
 .res-nightmode .side .md a[href*="http://vegetus.org/honey/honey.htm"] {background-color:`#AC1E44'}
 .res-nightmode .side .md a[href*="http://vegetus.org/honey/honey.htm"]:hover {background-color:`#6b132a'}
 
-.side .md a[href*="https://www.reddit.com/user/DrGalactus/m/vegannetwork"] {
+.side .md a[href*="/u/DrGalactus/m/vegannetwork"] {
 transition: all 0.7s ease 0s;
 background-color: `#F7B020';
 border: 0px solid `#D4D4D4';
@@ -4116,9 +4116,9 @@ margin: 0!important;
 padding: 6px!important;
 font-size: 12px;
 }
-.side .md a[href*="https://www.reddit.com/user/DrGalactus/m/vegannetwork"]:hover { background-color:`#FA5708'}
-.res-nightmode .side .md a[href*="https://www.reddit.com/user/DrGalactus/m/vegannetwork"] {background-color:`#AC1E44'}
-.res-nightmode .side .md a[href*="https://www.reddit.com/user/DrGalactus/m/vegannetwork"]:hover {background-color:`#6b132a'}
+.side .md a[href*="/user/DrGalactus/m/vegannetwork"]:hover { background-color:`#FA5708'}
+.res-nightmode .side .md a[href*="/user/DrGalactus/m/vegannetwork"] {background-color:`#AC1E44'}
+.res-nightmode .side .md a[href*="/user/DrGalactus/m/vegannetwork"]:hover {background-color:`#6b132a'}
 
 .side .md a[href*="http://webchat.snoonet.org/Vegan"] {
 transition: all 0.7s ease 0s;

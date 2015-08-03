@@ -1,3 +1,5 @@
+dnl Dashes shall not be comments
+changecom(`/*', `*/')
 dnl flair_plus_sidebar
 dnl
 dnl Flair + sidebar button styling macro
@@ -46,3 +48,6 @@ define(`flair_plus_sidebar',`
     color:#FFF;
     content:"$1"
 }')
+define(`subreddit',`vegancirclejerkjerk')
+dnl define(`flair_filter_url',`https://www.reddit.com/r/subreddit()/search?q=flair%3A$1&restrict_sr=on&sort=relevance&t=all#$1')
+define(`flair_filter_url',`https://reddit.com/r/subreddit()/search?q=flair%3A$1&restrict_sr=on#$1')
